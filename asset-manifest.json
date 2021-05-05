@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/saladium/static/css/main.62ea0c27.chunk.css",
-    "main.js": "/saladium/static/js/main.64ea0dae.chunk.js",
-    "main.js.map": "/saladium/static/js/main.64ea0dae.chunk.js.map",
-    "runtime-main.js": "/saladium/static/js/runtime-main.ea6189d4.js",
-    "runtime-main.js.map": "/saladium/static/js/runtime-main.ea6189d4.js.map",
+    "main.css": "/saladium/static/css/main.5fbc08a9.chunk.css",
+    "main.js": "/saladium/static/js/main.217fcfd2.chunk.js",
+    "main.js.map": "/saladium/static/js/main.217fcfd2.chunk.js.map",
+    "runtime-main.js": "/saladium/static/js/runtime-main.1c90a008.js",
+    "runtime-main.js.map": "/saladium/static/js/runtime-main.1c90a008.js.map",
     "static/js/2.f38a1b05.chunk.js": "/saladium/static/js/2.f38a1b05.chunk.js",
     "static/js/2.f38a1b05.chunk.js.map": "/saladium/static/js/2.f38a1b05.chunk.js.map",
-    "static/js/3.575e1914.chunk.js": "/saladium/static/js/3.575e1914.chunk.js",
-    "static/js/3.575e1914.chunk.js.map": "/saladium/static/js/3.575e1914.chunk.js.map",
     "index.html": "/saladium/index.html",
-    "static/css/main.62ea0c27.chunk.css.map": "/saladium/static/css/main.62ea0c27.chunk.css.map",
+    "static/css/main.5fbc08a9.chunk.css.map": "/saladium/static/css/main.5fbc08a9.chunk.css.map",
     "static/js/2.f38a1b05.chunk.js.LICENSE.txt": "/saladium/static/js/2.f38a1b05.chunk.js.LICENSE.txt",
     "static/media/ingredient.scss": "/saladium/static/media/tuna.f278834f.svg",
     "static/media/salad-hero.ca3a2af7.jpeg": "/saladium/static/media/salad-hero.ca3a2af7.jpeg",
@@ -19,9 +17,9 @@
     "static/media/homepage.scss": "/saladium/static/media/vegBg.23b8241c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea6189d4.js",
+    "static/js/runtime-main.1c90a008.js",
     "static/js/2.f38a1b05.chunk.js",
-    "static/css/main.62ea0c27.chunk.css",
-    "static/js/main.64ea0dae.chunk.js"
+    "static/css/main.5fbc08a9.chunk.css",
+    "static/js/main.217fcfd2.chunk.js"
   ]
 }
