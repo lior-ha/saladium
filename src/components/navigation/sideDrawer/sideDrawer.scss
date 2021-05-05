@@ -1,0 +1,32 @@
+.sideDrawer {
+	background-color: var(--darkGray);
+	box-sizing: border-box;
+	height: 100%;
+	right: 0;
+	max-width: 70%;
+	padding: 32px 16px;
+	position: fixed;
+	right: 0;
+	transition: transform 0.3s ease-out;
+	top: 0;
+	width: 280px;
+	z-index: 4;
+
+	&.open {
+		transform: translateX(0);
+	}
+
+	&.closed {
+		transform: translateX(100vw);
+	}
+
+	.logo {
+		flex-direction: column;
+		height: 20%;
+		margin-bottom: 60px;
+	}
+
+	@media (min-width: 500px) {
+		display: none;
+	}
+}

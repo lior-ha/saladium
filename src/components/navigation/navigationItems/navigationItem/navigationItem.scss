@@ -1,0 +1,18 @@
+.navItem {
+	align-self: center;
+	padding: 20px 20px;
+
+	A {
+		border-bottom: 1px solid transparent;
+		color: var(--lightGray);
+		padding-bottom: 10px;
+
+		&:hover {
+			border-bottom-color: var(--lightGray);
+		}
+
+		&.active {
+			border-bottom-color: var(--green);
+		}
+	}
+}

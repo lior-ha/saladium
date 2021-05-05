@@ -1,0 +1,81 @@
+.ing {
+	animation: spinDown 1000ms forwards 0.3s, spin 0.2s forwards 0.2s;
+	-webkit-animation: spinDown 1000ms forwards 0.3s, spin 0.2s forwards 0.2s;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 20%;
+	position: absolute;
+	width: 13%;
+}
+
+// @keyframes spinDown {
+// 	0% {
+// 		transform: rotate(0deg);
+// 		right: 0;
+// 		top: -50px;
+// 		opacity: 0;
+// 	}
+
+// 	50% {
+// 		transform: rotate(360deg);
+// 		right: calc(100% - 50px);
+// 		top: calc(100% - 50px);
+// 	}
+
+// 	100% {
+// 		--ingBowlRight: attr(data-index);
+// 		transform: rotate(0deg);
+// 		right: calc(24px * var(--ingBowlRight));
+// 		top: calc(100% - 50px);
+// 		opacity: 100;
+// 		-webkit-transform: rotate(0deg);
+// 		-moz-transform: rotate(0deg);
+// 		-ms-transform: rotate(0deg);
+// 		-o-transform: rotate(0deg);
+// 	}
+// }
+
+.cucumber {
+	background-image: url('../../../assests/images/ingredients/cucumber.png');
+}
+
+.tomato {
+	background-image: url('../../../assests/images/ingredients/tomato.png');
+}
+
+.egg {
+	background-image: url('../../../assests/images/ingredients/egg.svg');
+}
+
+.tuna {
+	background-image: url('../../../assests/images/ingredients/tuna.svg');
+}
+
+.potato {
+	background-image: url('../../../assests/images/ingredients/maybepotato.svg');
+}
+
+.lettuce {
+	background-image: url('../../../assests/images/ingredients/lettuce.svg');
+}
+
+// .corn {
+// 	background-image: url('../../../assests/images/ingredients/corn.png');
+// }
+
+.onion {
+	background-image: url('../../../assests/images/ingredients/onion.svg');
+}
+
+.mushroom {
+	background-image: url('../../../assests/images/ingredients/mushroom.svg');
+}
+
+.pickles {
+	background-image: url('../../../assests/images/ingredients/pickles.png');
+}
+
+// .pasta {
+// 	background-image: url('../../../assests/images/ingredients/pasta.png');
+// }

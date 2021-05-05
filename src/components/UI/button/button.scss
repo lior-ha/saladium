@@ -1,0 +1,35 @@
+.button {
+	border: 1px solid var(--lightGray);
+	color: white;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1.2rem;
+	margin: 10px 0;
+	outline: none;
+	padding: 15px 20px;
+
+	&.approve,
+	&.orderBtn {
+		background-color: var(--green);
+		&:hover {
+			background-color: var(--green-hover);
+		}
+	}
+
+	&.back {
+		background-color: var(--red);
+		&:hover {
+			background-color: var(--red-hover);
+		}
+	}
+
+	&.orderBtn {
+		align-self: end;
+	}
+}
+
+.btnWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}

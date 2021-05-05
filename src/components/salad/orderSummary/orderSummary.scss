@@ -1,0 +1,25 @@
+.orderSummary {
+	.title {
+		font-size: 1.5rem;
+		margin-bottom: 15px;
+	}
+
+	p {
+		margin: 5px 0;
+	}
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 15px 15px 0;
+		justify-content: space-between;
+
+		li {
+			width: 40%;
+			margin-bottom: 20px;
+			border-bottom: 1px solid var(--lightGray);
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}

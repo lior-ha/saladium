@@ -1,0 +1,42 @@
+.homepage {
+	background-image: url('../../assests/images/vegBg.jpg');
+	background-size: cover;
+	height: 500px;
+	border-top: 5px solid var(--darkGray);
+
+	P {
+		color: white;
+		font-size: 2em;
+		font-weight: bold;
+		position: relative;
+		width: fit-content;
+
+		&:first-child {
+			top: 220px;
+			left: -60%;
+			transform: rotate(305deg);
+			-webkit-transform: rotate(305deg);
+			-moz-transform: rotate(305deg);
+			-ms-transform: rotate(305deg);
+			-o-transform: rotate(305deg);
+		}
+		&:nth-child(2) {
+			top: 80px;
+			left: 0;
+			transform: rotate(38deg);
+			-webkit-transform: rotate(38deg);
+			-moz-transform: rotate(38deg);
+			-ms-transform: rotate(38deg);
+			-o-transform: rotate(38deg);
+		}
+		&:last-child {
+			top: 90px;
+			left: -80%;
+			transform: rotate(305deg);
+			-webkit-transform: rotate(305deg);
+			-moz-transform: rotate(305deg);
+			-ms-transform: rotate(305deg);
+			-o-transform: rotate(305deg);
+		}
+	}
+}

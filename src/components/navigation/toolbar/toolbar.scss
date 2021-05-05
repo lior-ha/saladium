@@ -1,0 +1,42 @@
+.toolbar {
+	align-items: center;
+	background-color: var(--darkGray);
+	box-sizing: border-box;
+	display: flex;
+	height: 66px;
+	justify-content: space-between;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+
+	.nav {
+		height: 100%;
+	}
+
+	.orderNow A {
+		background-color: red;
+		color: white;
+		display: block;
+		font-weight: bold;
+		padding: 25px 20px;
+		white-space: nowrap;
+
+		&:hover {
+			background-color: rgb(255, 54, 54);
+			text-decoration: none;
+		}
+	}
+
+	.logo {
+		height: 80%;
+	}
+
+	@media (max-width: 499px) {
+		.nav,
+		.sideBarOpener {
+			display: none;
+		}
+	}
+}

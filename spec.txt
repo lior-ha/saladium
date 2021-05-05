@@ -1,0 +1,32 @@
+In this task you will build an Online Ordering site (application) for a nutritional and delicious Salad Shop. 
+The application will be comprised of the following: 
+    • -  Persistent constant “Store” header 
+    • -  Store landing page 
+        ◦ -  contains greetings 
+        ◦ -  “Order Salad” button 
+- Onclick, will move us to Ingredients page - Ingredients page 
+    • -  List of all of the possible ingredients for building a salad. 
+    • -  The list of ingredients will be fetched (AJAX) from the given JSON file. 
+    • -  Any Ingredient item can be selected (multiple times) and added to a salad order 
+(price will be taken from the data returned from the ingredients call) 
+    • -  “Proceed to Checkout” button 
+- Onclick will move us to checkout page - Checkout page 
+    • -  Current order description 
+        ◦ -  List of all the selected items and price 
+        ◦ -  Total price of all the selected items 
+    • -  Order details form 
+        ◦ -  Name text field - Required 
+        ◦ -  Email text field - Required 
+        ◦ -  Additional Notes textarea field 
+    • -  “Order” button 
+- will Open order summary modal 
+    • -  Order Summary modal 
+        ◦ -  Shows all the details of the order 
+        ◦ -  “Thank you” and “Delivery is on its way” messages 
+        ◦ -  “Close” button 
+            ▪ -  closes the modal 
+            ▪ -  Redirects us to Store landing page 
+Bonus: 
+    • -  Tests 
+* We recommend to use “create-react-app”. * Minimum React version 16.2. 
+* please publish the final project to github with instructions readme: how to install and run  the project

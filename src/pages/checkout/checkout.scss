@@ -1,0 +1,82 @@
+h1 {
+	font-size: 3rem;
+	padding: 20px 0 10px;
+	text-align: center;
+}
+
+.checkoutBill {
+	background-color: white;
+	box-shadow: 1px 1px 1px var(--darkGray);
+	color: var(--darkGray);
+	margin: 10px auto 0;
+	padding: 50px 40px 20px;
+	transform: rotate(2deg);
+	width: 50%;
+
+	.innerBox {
+		border: 1px solid var(--green);
+		display: flex;
+		flex-direction: column;
+		padding: 30px 20px 15px;
+		position: relative;
+	}
+
+	li {
+		align-items: end;
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		padding: 10px 0;
+		width: 100%;
+
+		I {
+			border-bottom: 1px dotted var(--darkGray);
+			display: block;
+		}
+
+		P {
+			padding: 10px 10px 0;
+
+			span {
+				font-weight: 700;
+			}
+		}
+
+		P:last-child {
+			font-weight: 700;
+		}
+	}
+
+	.billTitle {
+		align-self: center;
+		color: white;
+		background-color: var(--green);
+		font-size: 1.5rem;
+		margin-bottom: 15px;
+		padding: 5px 10px;
+		position: absolute;
+		top: -17px;
+	}
+
+	.billSubTitle {
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+
+	.total {
+		align-self: flex-end;
+		background: yellow;
+		display: inline;
+		font-weight: 700;
+		margin: 10px;
+	}
+
+	.utensils {
+		background-color: var(--green);
+		align-self: center;
+		height: 50px;
+		padding: 10px;
+		position: absolute;
+		bottom: -33px;
+		width: 50px;
+	}
+}

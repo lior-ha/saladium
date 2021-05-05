@@ -1,0 +1,14 @@
+.nav {
+	box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px;
+	width: 100%;
+
+	UL {
+		align-items: center;
+		display: flex;
+		justify-content: flex-start;
+
+		@media (max-width: 500px) {
+			flex-direction: column;
+		}
+	}
+}

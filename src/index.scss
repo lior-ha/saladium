@@ -1,0 +1,15 @@
+body {
+	background-color: var(--mainGray);
+	color: var(--defaultFont);
+	direction: rtl;
+	font-family: var(--mainFont);
+	font-size: 16px;
+	margin: 0;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+A {
+	text-decoration: none;
+}
