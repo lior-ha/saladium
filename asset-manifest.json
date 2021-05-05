@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/saladium/static/css/main.62ea0c27.chunk.css",
-    "main.js": "/saladium/static/js/main.86336c14.chunk.js",
-    "main.js.map": "/saladium/static/js/main.86336c14.chunk.js.map",
-    "runtime-main.js": "/saladium/static/js/runtime-main.ea6189d4.js",
-    "runtime-main.js.map": "/saladium/static/js/runtime-main.ea6189d4.js.map",
-    "static/js/2.27e2a943.chunk.js": "/saladium/static/js/2.27e2a943.chunk.js",
-    "static/js/2.27e2a943.chunk.js.map": "/saladium/static/js/2.27e2a943.chunk.js.map",
-    "static/js/3.575e1914.chunk.js": "/saladium/static/js/3.575e1914.chunk.js",
-    "static/js/3.575e1914.chunk.js.map": "/saladium/static/js/3.575e1914.chunk.js.map",
-    "index.html": "/saladium/index.html",
-    "static/css/main.62ea0c27.chunk.css.map": "/saladium/static/css/main.62ea0c27.chunk.css.map",
-    "static/js/2.27e2a943.chunk.js.LICENSE.txt": "/saladium/static/js/2.27e2a943.chunk.js.LICENSE.txt",
-    "static/media/ingredient.scss": "/saladium/static/media/tuna.f278834f.svg",
-    "static/media/salad-hero.ca3a2af7.jpeg": "/saladium/static/media/salad-hero.ca3a2af7.jpeg",
-    "static/media/salad-logo.ca722b43.svg": "/saladium/static/media/salad-logo.ca722b43.svg",
-    "static/media/utensils-solid.df2c19c1.svg": "/saladium/static/media/utensils-solid.df2c19c1.svg",
-    "static/media/homepage.scss": "/saladium/static/media/vegBg.23b8241c.jpg"
+    "main.css": "/static/css/main.fc6b0488.chunk.css",
+    "main.js": "/static/js/main.86336c14.chunk.js",
+    "main.js.map": "/static/js/main.86336c14.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5925bee.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5925bee.js.map",
+    "static/js/2.27e2a943.chunk.js": "/static/js/2.27e2a943.chunk.js",
+    "static/js/2.27e2a943.chunk.js.map": "/static/js/2.27e2a943.chunk.js.map",
+    "static/js/3.575e1914.chunk.js": "/static/js/3.575e1914.chunk.js",
+    "static/js/3.575e1914.chunk.js.map": "/static/js/3.575e1914.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fc6b0488.chunk.css.map": "/static/css/main.fc6b0488.chunk.css.map",
+    "static/js/2.27e2a943.chunk.js.LICENSE.txt": "/static/js/2.27e2a943.chunk.js.LICENSE.txt",
+    "static/media/ingredient.scss": "/static/media/tuna.f278834f.svg",
+    "static/media/salad-hero.ca3a2af7.jpeg": "/static/media/salad-hero.ca3a2af7.jpeg",
+    "static/media/salad-logo.ca722b43.svg": "/static/media/salad-logo.ca722b43.svg",
+    "static/media/utensils-solid.df2c19c1.svg": "/static/media/utensils-solid.df2c19c1.svg",
+    "static/media/homepage.scss": "/static/media/vegBg.23b8241c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea6189d4.js",
+    "static/js/runtime-main.f5925bee.js",
     "static/js/2.27e2a943.chunk.js",
-    "static/css/main.62ea0c27.chunk.css",
+    "static/css/main.fc6b0488.chunk.css",
     "static/js/main.86336c14.chunk.js"
   ]
 }
