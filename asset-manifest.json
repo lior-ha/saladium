@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.5bda00d3.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.86336c14.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.86336c14.chunk.js.map",
+    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.4bd52e44.js",
+    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.4bd52e44.js.map",
+    "static/js/2.27e2a943.chunk.js": "/react-gh-pages/static/js/2.27e2a943.chunk.js",
+    "static/js/2.27e2a943.chunk.js.map": "/react-gh-pages/static/js/2.27e2a943.chunk.js.map",
+    "static/js/3.575e1914.chunk.js": "/react-gh-pages/static/js/3.575e1914.chunk.js",
+    "static/js/3.575e1914.chunk.js.map": "/react-gh-pages/static/js/3.575e1914.chunk.js.map",
+    "index.html": "/react-gh-pages/index.html",
+    "static/css/main.5bda00d3.chunk.css.map": "/react-gh-pages/static/css/main.5bda00d3.chunk.css.map",
+    "static/js/2.27e2a943.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.27e2a943.chunk.js.LICENSE.txt",
+    "static/media/ingredient.scss": "/react-gh-pages/static/media/tuna.f278834f.svg",
+    "static/media/salad-hero.ca3a2af7.jpeg": "/react-gh-pages/static/media/salad-hero.ca3a2af7.jpeg",
+    "static/media/salad-logo.ca722b43.svg": "/react-gh-pages/static/media/salad-logo.ca722b43.svg",
+    "static/media/utensils-solid.df2c19c1.svg": "/react-gh-pages/static/media/utensils-solid.df2c19c1.svg",
+    "static/media/homepage.scss": "/react-gh-pages/static/media/vegBg.23b8241c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bd52e44.js",
+    "static/js/2.27e2a943.chunk.js",
+    "static/css/main.5bda00d3.chunk.css",
+    "static/js/main.86336c14.chunk.js"
+  ]
+}

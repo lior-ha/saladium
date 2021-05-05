@@ -1,0 +1,25 @@
+{
+  "short_name": "Saladium",
+  "name": "Salads created by you!",
+  "icons": [
+    {
+      "src": "salad.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "salad.svg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "salad.svg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
