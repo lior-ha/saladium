@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Downloading and using Saladium
+## Saladium on Github Pages
+The site is hosted here:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://lior-ha.github.io/saladium/
 
-## Available Scripts
+#
 
-In the project directory, you can run:
+## Downloading
+$ git clone https://github.com/lior-ha/saladium 
 
-### `npm start`
+#
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Using Saladium
+### `Installing dependencies`
+run: 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+$ npm install
 
-### `npm test`
+$ npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#
 
-### `npm run build`
+### `Data`
+Original JSON file is in /src/data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When the App is mounting and creating the store, the default array is being manipulated and extra data is being added - Translation to hebrew, and initial amount - as the initial state for the reducer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Pages`
+There are 3 pages for the app:
+- Homepage
+- Salad Builder
+- Checkout
 
-### `npm run eject`
+#
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Homepage`
+The store's landing page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Has some slogans and a Start Ordering button that directs to the Salad Builder page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `Salad Builder`
+The Salad builder is build of 2 main components:
+- Controls
+- Salad
 
-## Learn More
+Control is the component for adding/removing ingredients from the salad. And also has the Checkout button. The state is stored via redux.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Salad is responsible for the UI. It fills a bowl with icons representing the ingredients (missing some icons, and potato is actually a Kebab for now).
+I also tried to have some animation there but due to time constraints, couldn't perfect it, so I removed it for now.
 
-### Code Splitting
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `Checkout`
+The Checkout page has:
+- A receipt design to show all ingredients, amount and prices, as well as the total amount.
+- A form for Name, Email and Additional Notes. Name and Email are required.
+- Order Summary Modal, which takes the same data the receipt is using to show details of the order. As well as a personal greeting, and a thank you note. There is also a button to that resets the data and redirects back to the homepage.
+- Error Modal - Returns error in case there's no Name or Email.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

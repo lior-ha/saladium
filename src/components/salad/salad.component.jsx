@@ -13,7 +13,7 @@ const Salad = ({ currentIngredients }) => {
     })
         
     if (ingredientsArray.length === 0) {
-        ingredientsArray = <div className="emptyBowl"> אז... מה לך לשים בפנים?</div>
+        ingredientsArray = <div className="emptyBowl"> אז... מה לכם לשים בפנים?</div>
     };
 
     return (

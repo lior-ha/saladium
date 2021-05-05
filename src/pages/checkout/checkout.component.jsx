@@ -57,7 +57,7 @@ const Checkout = (props) => {
     const ingredientsSum = props.currentIngredients.map(ing => {
         const ingTotalPrice = ing.amount * ing.price;
         return  <li key={ing.name + 'cko'} >
-                    <p><span>{ing.label}</span> - ({ing.amount})</p>
+                    <p><span>{ing.label}</span> ({ing.amount})</p>
                     <i></i>
                     <p>{ingTotalPrice.toFixed(2)} &#8362;</p>
                 </li>
@@ -71,7 +71,6 @@ const Checkout = (props) => {
                 <OrderSummary 
                     clicked={processOrder}
                     ingredients={ingredientsSum} 
-                    toggleOrderSummary={toggleOrderSummaryHandler}
                     price={props.totalPrice}
                     name={userDetails.name}
                 />
@@ -82,16 +81,16 @@ const Checkout = (props) => {
                     מלא בבקשה גם שם וגם אימייל!
                 </div>
             </Modal>
-            
+
             <h1 className="title">רוצים חשבון?</h1>
             <div className="checkoutBill">
                 <div className="innerBox">
                     <p className="billTitle">אז מה היה לנו?</p>
-                    <p className="billSubTitle">הסלט המושלם שלך מכיל:</p>
+                    <p className="billSubTitle">הסלט המושלם שלכם מכיל:</p>
                     <ul>
                         {ingredientsSum}
                     </ul>
-                    <p className="total">סה"כ יצא לכם: {props.totalPrice.toFixed(2)} ש"ח</p>
+                    <p className="total">סה"כ יצא לכם: {props.totalPrice.toFixed(2)} &#8362;</p>
                     <img src={utensils} className="utensils" alt="סכום" />
                 </div>
                 <div className={`formBg ${showForm && 'on'}`} onClick={() => setShowForm(false)}></div>
